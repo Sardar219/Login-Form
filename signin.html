@@ -7,6 +7,7 @@
 
     <!-- custom style -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="signin.css" />
 
     <!-- fontAwasome offline -->
     <link rel="stylesheet" href="fontawasome/css/all.css" />
@@ -37,7 +38,12 @@
       <div class="form-box">
         <div class="form-value">
           <form action="">
-            <h2>Login</h2>
+            <h2>Signin</h2>
+            <div class="inputbox">
+              <i class="fas fa-user"></i>
+              <input type="email" name="email" id="email" />
+              <label for="email">Name</label>
+            </div>
             <div class="inputbox">
               <i class="fas fa-envelope"></i>
               <input type="email" name="email" id="email" />
@@ -53,11 +59,10 @@
                 ><input type="checkbox" name="remember" id="remember" />Remember
                 Me</label
               >
-              <a href="">Forget Password</a>
             </div>
             <button type="submit">Log in</button>
             <div class="register">
-              <p>Don't have an account? <a href="#">Register</a></p>
+              <p>Do you have already account? <a href="login.html">Login</a></p>
             </div>
           </form>
         </div>
